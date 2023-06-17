@@ -204,6 +204,11 @@ minilen=10   #l.11
 - [ ]  変更前に含まれる文字が変更後のパスワードに7文字以上含まれてはならない
 - [ ]  rootにも同じポリシーを適用する
 
+
+```bash
+/etc/pam.d/common-password
+```
+
 ```bash
 password    requisite         pam_pwquality.so retry=3 **lcredit =-1　ucredit=-1 dcredit=-1 maxrepeat=3 usercheck=0 difok=7 enforce_for_root　　　　　#l.25**
 ```

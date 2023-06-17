@@ -1,5 +1,5 @@
 # Born2Beroot
-A schoolwork on linux at 42.
+
 - [ ]  暗号化LVMを使用してpdfにあるようなパーティションを作成
 
 - virtual boxでのセットアップ時に勝手にやってくれる。
